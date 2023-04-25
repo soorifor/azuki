@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김수현-azuki</title>
+    <style>
+        body {background-color: #ddd}
+
+        .azuki .mobile {position: absolute;
+        top: 450px; left: 50%; 
+        transform: translate(-50%,-50%);
+        z-index:2;
+        }
+        .azuki .mobile img {width: 300px;}
+
+        .azuki .gif {position: absolute;
+        top: 450px; left: 50%; 
+        transform: translate(-50%,-50%);
+        z-index:1;
+        }
+        .azuki .gif img {width: 241px;}
+
+    </style>
+</head>
+<body>
+    <!-- .azuki>.mobile>img+.gif>a>img -->
+    <div class="azuki">
+        <div class="mobile"><a href="https://opensea.io/collection/azuki" target="_blank"> <!-- 새 탭에서 열기 -->
+            <img src="images/mobile.png" alt="모바일목업"></a>
+        </div>
+        <div class="gif"> 
+            <img src="./images/ksh.gif" alt="아즈키애니메이션"></div>
+
+</body>
+</html>
